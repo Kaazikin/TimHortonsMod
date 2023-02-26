@@ -1,6 +1,7 @@
 package net.kaazikin.timhortons;
 
 import com.mojang.logging.LogUtils;
+import net.kaazikin.timhortons.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
@@ -23,7 +24,11 @@ public class TimHortonsMod
     public TimHortonsMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
+
         MinecraftForge.EVENT_BUS.register(this);
     }
 
