@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ae6b43b-fc7d-4660-b18e-f2d6e9ebacb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/kaazikin/timhortons/item/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7ae6b43b-fc7d-4660-b18e-f2d6e9ebacb5" name="Changes" comment="Add timbit assets">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/timhortons/recipes/birthday_timbit.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/timhortons/recipes/timbit.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/kaazikin/timhortons/TimHortonsMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/kaazikin/timhortons/TimHortonsMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/kaazikin/timhortons/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/kaazikin/timhortons/item/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/timhortons/textures/item/birthday_timbit.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/textures/item/birthday_timbit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/timhortons/textures/item/timbit.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/textures/item/timbit.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,16 +73,19 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MHgrlr8v64dY6yQ2RmtFc1fVdC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Coding/Java/Minecraft/TimHortonsMod/src/main/resources/assests/timhortons/textures/item",
+    "last_opened_file_path": "D:/Coding/Java/Minecraft/TimHortonsMod/src/main/resources/data/timhortons/recipes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,8 +99,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\data\timhortons\recipes" />
       <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\assests\timhortons\textures\item" />
       <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\assests\timhortons\models\item" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\assets\timhortons\textures\item" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.TimHortonsMod [runClient]">
@@ -181,12 +189,33 @@
       <updated>1677430125732</updated>
       <workItem from="1677430126186" duration="6677000" />
       <workItem from="1677438916933" duration="54000" />
-      <workItem from="1677438986594" duration="3149000" />
+      <workItem from="1677438986594" duration="10725000" />
     </task>
+    <task id="LOCAL-00001" summary="Added two example timbits">
+      <created>1677442338529</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677442338529</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add timbit assets">
+      <created>1677442377682</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677442377682</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added two example timbits" />
+    <MESSAGE value="Add timbit assets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add timbit assets" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

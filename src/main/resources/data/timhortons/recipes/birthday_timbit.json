@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "MCS",
+    " E "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "C": {
+      "item": "minecraft:cake"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "timhortons:birthday_timbit",
+    "count": 8
+  }
+}
