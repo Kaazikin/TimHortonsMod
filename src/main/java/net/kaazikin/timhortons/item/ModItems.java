@@ -18,6 +18,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> BIRTHDAY_TIMBIT = ITEMS.register("birthday_timbit",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(new FoodProperties.Builder().nutrition(4).saturationMod(0.8F).build())));
+
+    public static final RegistryObject<Item> CHOCOLATE_TIMBIT = ITEMS.register("birthday_timbit",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(new FoodProperties.Builder().nutrition(4).saturationMod(1F).build())));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
