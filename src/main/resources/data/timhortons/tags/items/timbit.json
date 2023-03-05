@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#timhortons:timbit/basic",
+    "#timhortons:timbit/advanced"
+  ]
+}
