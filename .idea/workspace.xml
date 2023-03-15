@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ae6b43b-fc7d-4660-b18e-f2d6e9ebacb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/birthday_timbit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/timhortons/tags/items/timbit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/timhortons/tags/items/timbit/advanced.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/timhortons/tags/items/timbit/basic.json" afterDir="false" />
+    <list default="true" id="7ae6b43b-fc7d-4660-b18e-f2d6e9ebacb5" name="Changes" comment="Updated to 0.0.3-1.19.2&#10;Added chocolate_espresso_timbit.">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/models/item/chocolate_espresso_timbit.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/textures/item/chocolate_espresso_timbit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/timhortons/recipes/chocolate_espresso_timbit.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/timhortons/recipes/turtle_timbit.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/timhortons/recipes/turtle_timbit.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/kaazikin/timhortons/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/kaazikin/timhortons/item/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/timhortons/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/timhortons/tags/items/timbit/advanced.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/timhortons/tags/items/timbit/advanced.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,24 +36,12 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="TimHortonsMod" type="f1a62948:ProjectNode" />
+                <item name="Java" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="TimHortonsMod" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="TimHortonsMod" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="TimHortonsMod" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="forgegradle runs" type="c8890929:TasksNode$1" />
+                <item name="Java" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -80,32 +70,32 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Coding/Java/Minecraft/TimHortonsMod/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;D:/Coding/Java/Minecraft/TimHortonsMod/src/main/resources/data/timhortons/recipes/timbit.json&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Coding/Java/src/main/resources/assets/timhortons/models/item",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "two.files.diff.last.used.file": "D:/Coding/Java/Minecraft/TimHortonsMod/src/main/resources/data/timhortons/recipes/timbit.json",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\Java\src\main\resources\assets\timhortons\models\item" />
+      <recent name="D:\Coding\Java\src\main\resources\data\timhortons\recipes" />
       <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src" />
       <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\assets\timhortons\models\item" />
       <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\data\timhortons\recipes" />
-      <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\assests\timhortons\textures\item" />
-      <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\assests\timhortons\models\item" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\data\timhortons\tags\items\timbit" />
@@ -199,6 +189,9 @@
       <workItem from="1677721393347" duration="3061000" />
       <workItem from="1677992593944" duration="1884000" />
       <workItem from="1678046938855" duration="602000" />
+      <workItem from="1678237731330" duration="516000" />
+      <workItem from="1678847682238" duration="184000" />
+      <workItem from="1678847899139" duration="4230000" />
     </task>
     <task id="LOCAL-00001" summary="Added two example timbits">
       <created>1677442338529</created>
@@ -240,7 +233,8 @@
     <MESSAGE value="Add timbit assets" />
     <MESSAGE value="Updated textures for timbits&#10;Added recipes for timbits" />
     <MESSAGE value="Updated to 0.0.2-1.19.2&#10;Fixed chocolate timbit&#10;Added turtle timbit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated to 0.0.2-1.19.2&#10;Fixed chocolate timbit&#10;Added turtle timbit" />
+    <MESSAGE value="Updated to 0.0.3-1.19.2&#10;Added chocolate_espresso_timbit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated to 0.0.3-1.19.2&#10;Added chocolate_espresso_timbit." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

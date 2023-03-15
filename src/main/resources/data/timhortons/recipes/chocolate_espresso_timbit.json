@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "MES",
+    " G "
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:coffee_beans"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "E": {
+      "tag": "forge:chocolates"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "G": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "timhortons:chocolate_espresso_timbit",
+    "count": 1
+  }
+}

@@ -17,19 +17,24 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, TimHortonsMod.MOD_ID);
 
     public static final RegistryObject<Item> TIMBIT = ITEMS.register("timbit",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(new FoodProperties.Builder().nutrition(2).saturationMod(0.5F).build())));
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(new FoodProperties.Builder().nutrition(2).saturationMod(0.5F).alwaysEat().build())));
 
     public static final RegistryObject<Item> BIRTHDAY_TIMBIT = ITEMS.register("birthday_timbit",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(new FoodProperties.Builder().nutrition(4).saturationMod(0.8F).build())));
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(new FoodProperties.Builder().nutrition(2).saturationMod(0.8F).alwaysEat().build())));
 
     public static final RegistryObject<Item> CHOCOLATE_TIMBIT = ITEMS.register("chocolate_timbit",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(new FoodProperties.Builder().nutrition(4).saturationMod(1F).build())));
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(new FoodProperties.Builder().nutrition(3).saturationMod(1F).alwaysEat().build())));
 
     public static final RegistryObject<Item> TURTLE_TIMBIT = ITEMS.register("turtle_timbit",
             () -> new Item(new Item.Properties().fireResistant().stacksTo(1).tab(CreativeModeTab.TAB_FOOD).food
-                            (new FoodProperties.Builder().nutrition(10).saturationMod(10F).alwaysEat().
+                            (new FoodProperties.Builder().nutrition(10).saturationMod(1F).alwaysEat().
                                     effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 800, 4), 0.7F).build())
                     .rarity(Rarity.RARE)));
+
+    public static final RegistryObject<Item> CHOCOLATE_ESPRESSO_TIMBIT = ITEMS.register("chocolate_espresso_timbit",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(new FoodProperties.Builder().nutrition(3).saturationMod(1F).alwaysEat().build()).
+                    rarity(Rarity.UNCOMMON)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
