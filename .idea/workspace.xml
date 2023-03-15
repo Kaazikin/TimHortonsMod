@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ae6b43b-fc7d-4660-b18e-f2d6e9ebacb5" name="Changes" comment="Updated to 0.0.3-1.19.2&#10;Added chocolate_espresso_timbit.">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/models/item/chocolate_espresso_timbit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/textures/item/chocolate_espresso_timbit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/timhortons/recipes/chocolate_espresso_timbit.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/kaazikin/timhortons/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/kaazikin/timhortons/item/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/timhortons/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/timhortons/tags/items/timbit/advanced.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/timhortons/tags/items/timbit/advanced.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/birthday_timbit.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/birthday_timbit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +92,9 @@
       <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\data\timhortons\recipes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding\Java\src\main\java" />
+      <recent name="D:\Coding\Java\src\main" />
+      <recent name="D:\Coding\Java\src" />
       <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\data\timhortons\tags\items\timbit" />
       <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\assets\timhortons\textures\item" />
     </key>
@@ -191,7 +188,7 @@
       <workItem from="1678046938855" duration="602000" />
       <workItem from="1678237731330" duration="516000" />
       <workItem from="1678847682238" duration="184000" />
-      <workItem from="1678847899139" duration="4230000" />
+      <workItem from="1678847899139" duration="4305000" />
     </task>
     <task id="LOCAL-00001" summary="Added two example timbits">
       <created>1677442338529</created>
@@ -221,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677725485753</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated to 0.0.3-1.19.2&#10;Added chocolate_espresso_timbit.">
+      <created>1678852356013</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678852356013</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
