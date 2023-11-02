@@ -3,9 +3,12 @@ package net.kaazikin.timhortons;
 import com.mojang.logging.LogUtils;
 import net.kaazikin.timhortons.item.ModItems;
 import net.minecraft.client.Minecraft;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -30,6 +33,7 @@ public class TimHortonsMod
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
+        modEventBus.addListener(this::addCreative);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
@@ -37,6 +41,18 @@ public class TimHortonsMod
         // Some common setup code
         LOGGER.info("HELLO FROM COMMON SETUP");
         LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));
+    }
+
+    private void addCreative(BuildCreativeModeTabContentsEvent event){
+        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
+            event.accept(ModItems.TIMBIT);
+            event.accept(ModItems.RASPBERRY_TIMBIT);
+            event.accept(ModItems.BIRTHDAY_TIMBIT);
+            event.accept(ModItems.CHOCOLATE_TIMBIT);
+            event.accept(ModItems.TURTLE_TIMBIT);
+            event.accept(ModItems.CHOCOLATE_ESPRESSO_TIMBIT);
+
+        }
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent

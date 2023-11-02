@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#SS",
+    "STS",
+    "SSS"
+  ],
+  "key": {
+    "#": {
+      "item": "croptopia:raspberry"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "T": {
+      "item": "timhortons:timbit"
+    }
+  },
+  "result": {
+    "item": "timhortons:raspberry_timbit",
+    "count": 1
+  }
+}
