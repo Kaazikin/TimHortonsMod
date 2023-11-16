@@ -30,12 +30,17 @@ public class ModItems {
             () -> new Item(new Item.Properties().fireResistant().stacksTo(1).food
                             (new FoodProperties.Builder().nutrition(10).saturationMod(1F).alwaysEat().
                                     effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 800, 4), 0.7F).build())
-                    .rarity(Rarity.RARE)));
+                    .rarity(Rarity.UNCOMMON)));
 
     public static final RegistryObject<Item> CHOCOLATE_ESPRESSO_TIMBIT = ITEMS.register("chocolate_espresso_timbit",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(2.5F).alwaysEat().build())
-                    .rarity(Rarity.UNCOMMON)));
+                    .rarity(Rarity.COMMON)));
 
+    public static final RegistryObject<Item> REIMU_FUMO_TIMBIT = ITEMS.register("reimu_fumo_timbit",
+            () -> new Item(new Item.Properties().fireResistant().stacksTo(1).food
+                            (new FoodProperties.Builder().nutrition(9).saturationMod(10F).alwaysEat().
+                                    effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 10), 0.5F).build())
+                    .rarity(Rarity.RARE)));
 
 
     public static void register(IEventBus eventBus) {

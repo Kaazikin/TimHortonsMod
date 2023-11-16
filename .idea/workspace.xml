@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ae6b43b-fc7d-4660-b18e-f2d6e9ebacb5" name="Changes" comment="Updated to 0.0.3-1.19.2&#10;Added chocolate_espresso_timbit.">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/models/item/raspberry_timbit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/textures/item/raspberry_timbit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/timhortons/recipes/raspberry_timbit.json" afterDir="false" />
+    <list default="true" id="7ae6b43b-fc7d-4660-b18e-f2d6e9ebacb5" name="Changes" comment="Updated to 0.0.4-1.20.1&#10;Added raspberry_timbit. Rebalanced timbit nutrition / saturation.">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/models/item/reimu_fumo_timbit.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/textures/item/reimu_fumo_timbit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/birthday_timbit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/timhortons/recipes/reimu_fumo_timbit.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/kaazikin/timhortons/TimHortonsMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/kaazikin/timhortons/TimHortonsMod.java" afterDir="false" />
@@ -15,7 +16,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/timhortons/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/lang/en_us.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/data/timhortons/tags/items/timbit/advanced.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/timhortons/tags/items/timbit/advanced.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/timhortons/tags/items/timbit/basic.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/timhortons/tags/items/timbit/basic.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +83,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -95,16 +96,16 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\data\timhortons\recipes" />
       <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\assets\timhortons\models\item" />
+      <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\assets\timhortons" />
       <recent name="D:\Coding\Java\src\main\resources\assets\timhortons\models\item" />
       <recent name="D:\Coding\Java\src\main\resources\data\timhortons\recipes" />
-      <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\assets\timhortons\textures\item" />
+      <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources" />
       <recent name="D:\Coding\Java\src\main\java" />
       <recent name="D:\Coding\Java\src\main" />
       <recent name="D:\Coding\Java\src" />
-      <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\data\timhortons\tags\items\timbit" />
-      <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\assets\timhortons\textures\item" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.TimHortonsMod [runClient]">
@@ -198,7 +199,9 @@
       <workItem from="1678847682238" duration="184000" />
       <workItem from="1678847899139" duration="4305000" />
       <workItem from="1698538329311" duration="457000" />
-      <workItem from="1698881924891" duration="2649000" />
+      <workItem from="1698881924891" duration="4099000" />
+      <workItem from="1699123324925" duration="45000" />
+      <workItem from="1700096603783" duration="2607000" />
     </task>
     <task id="LOCAL-00001" summary="Added two example timbits">
       <created>1677442338529</created>
@@ -235,11 +238,29 @@
       <option name="project" value="LOCAL" />
       <updated>1678852356013</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated to 0.0.4-1.20.1&#10;Added raspberry_timbit. Rebalanced timbit nutrition / saturation.">
+      <created>1698884909910</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698884909910</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -248,7 +269,8 @@
     <MESSAGE value="Updated textures for timbits&#10;Added recipes for timbits" />
     <MESSAGE value="Updated to 0.0.2-1.19.2&#10;Fixed chocolate timbit&#10;Added turtle timbit" />
     <MESSAGE value="Updated to 0.0.3-1.19.2&#10;Added chocolate_espresso_timbit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated to 0.0.3-1.19.2&#10;Added chocolate_espresso_timbit." />
+    <MESSAGE value="Updated to 0.0.4-1.20.1&#10;Added raspberry_timbit. Rebalanced timbit nutrition / saturation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated to 0.0.4-1.20.1&#10;Added raspberry_timbit. Rebalanced timbit nutrition / saturation." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
