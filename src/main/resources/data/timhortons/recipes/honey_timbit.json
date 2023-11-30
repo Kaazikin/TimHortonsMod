@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "MMS",
+    " E "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "M": {
+      "item": "minecraft:honey_bottle"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "timhortons:honey_timbit",
+    "count": 8
+  }
+}

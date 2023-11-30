@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ae6b43b-fc7d-4660-b18e-f2d6e9ebacb5" name="Changes" comment="Updated to 0.0.4-1.20.1&#10;Added raspberry_timbit. Rebalanced timbit nutrition / saturation.">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/models/item/reimu_fumo_timbit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/textures/item/reimu_fumo_timbit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/birthday_timbit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/timhortons/recipes/reimu_fumo_timbit.json" afterDir="false" />
+    <list default="true" id="7ae6b43b-fc7d-4660-b18e-f2d6e9ebacb5" name="Changes" comment="Updated to 0.0.5-1.20.1&#10;Added reimu_fumo_timbit. Changed rarities of some timbits.">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/models/item/cirno_fumo_timbit.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/models/item/honey_timbit.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/textures/item/cirno_fumo_timbit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/textures/item/honey_timbit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/timhortons/recipes/cirno_fumo_timbit.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/timhortons/recipes/honey_timbit.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/kaazikin/timhortons/TimHortonsMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/kaazikin/timhortons/TimHortonsMod.java" afterDir="false" />
@@ -16,6 +18,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/timhortons/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/timhortons/lang/en_us.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/data/timhortons/tags/items/timbit/advanced.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/timhortons/tags/items/timbit/advanced.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/timhortons/tags/items/timbit/basic.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/timhortons/tags/items/timbit/basic.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +81,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Coding/Java/Minecraft/TimHortonsMod/src/main/resources/data/timhortons/recipes",
+    "last_opened_file_path": "D:/Coding/Java/Minecraft/TimHortonsMod/src/main/resources/assets/timhortons/models/item",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -94,8 +97,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\data\timhortons\recipes" />
       <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\assets\timhortons\models\item" />
+      <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\data\timhortons\recipes" />
       <recent name="D:\Coding\Java\Minecraft\TimHortonsMod\src\main\resources\assets\timhortons" />
       <recent name="D:\Coding\Java\src\main\resources\assets\timhortons\models\item" />
       <recent name="D:\Coding\Java\src\main\resources\data\timhortons\recipes" />
@@ -201,7 +204,8 @@
       <workItem from="1698538329311" duration="457000" />
       <workItem from="1698881924891" duration="4099000" />
       <workItem from="1699123324925" duration="45000" />
-      <workItem from="1700096603783" duration="2607000" />
+      <workItem from="1700096603783" duration="2916000" />
+      <workItem from="1701306555394" duration="1532000" />
     </task>
     <task id="LOCAL-00001" summary="Added two example timbits">
       <created>1677442338529</created>
@@ -245,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698884909910</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated to 0.0.5-1.20.1&#10;Added reimu_fumo_timbit. Changed rarities of some timbits.">
+      <created>1700099324757</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700099324757</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +281,8 @@
     <MESSAGE value="Updated to 0.0.2-1.19.2&#10;Fixed chocolate timbit&#10;Added turtle timbit" />
     <MESSAGE value="Updated to 0.0.3-1.19.2&#10;Added chocolate_espresso_timbit." />
     <MESSAGE value="Updated to 0.0.4-1.20.1&#10;Added raspberry_timbit. Rebalanced timbit nutrition / saturation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated to 0.0.4-1.20.1&#10;Added raspberry_timbit. Rebalanced timbit nutrition / saturation." />
+    <MESSAGE value="Updated to 0.0.5-1.20.1&#10;Added reimu_fumo_timbit. Changed rarities of some timbits." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated to 0.0.5-1.20.1&#10;Added reimu_fumo_timbit. Changed rarities of some timbits." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

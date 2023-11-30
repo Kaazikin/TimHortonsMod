@@ -21,6 +21,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> BIRTHDAY_TIMBIT = ITEMS.register("birthday_timbit",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.8F).alwaysEat().build())));
+
+    public static final RegistryObject<Item> HONEY_TIMBIT = ITEMS.register("honey_timbit",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(3F).alwaysEat().build())));
     public static final RegistryObject<Item> CHOCOLATE_TIMBIT = ITEMS.register("chocolate_timbit",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1F).alwaysEat().build())));
     public static final RegistryObject<Item> RASPBERRY_TIMBIT = ITEMS.register("raspberry_timbit",
@@ -40,6 +43,12 @@ public class ModItems {
             () -> new Item(new Item.Properties().fireResistant().stacksTo(1).food
                             (new FoodProperties.Builder().nutrition(9).saturationMod(10F).alwaysEat().
                                     effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 10), 0.5F).build())
+                    .rarity(Rarity.RARE)));
+
+    public static final RegistryObject<Item> CIRNO_FUMO_TIMBIT = ITEMS.register("cirno_fumo_timbit",
+            () -> new Item(new Item.Properties().fireResistant().stacksTo(4).food
+                            (new FoodProperties.Builder().nutrition(9).saturationMod(10F).alwaysEat().
+                                    effect(() -> new MobEffectInstance(MobEffects.DARKNESS, 200, 10), 0.001F).build())
                     .rarity(Rarity.RARE)));
 
 

@@ -52,7 +52,8 @@ public class TimHortonsMod
             event.accept(ModItems.TURTLE_TIMBIT);
             event.accept(ModItems.CHOCOLATE_ESPRESSO_TIMBIT);
             event.accept(ModItems.REIMU_FUMO_TIMBIT);
-
+            event.accept(ModItems.CIRNO_FUMO_TIMBIT);
+            event.accept(ModItems.HONEY_TIMBIT);
         }
     }
 

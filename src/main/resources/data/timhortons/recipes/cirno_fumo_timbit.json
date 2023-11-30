@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "timhortons:timbit/basic"
+    },
+    {
+      "item": "voidtotem:totem_of_void_undying"
+    }
+  ],
+  "result": {
+    "item": "timhortons:cirno_fumo_timbit",
+    "count": 1
+  }
+}
